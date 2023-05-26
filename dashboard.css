@@ -23,22 +23,44 @@ body{
 
 .title{
     height: 40px;
-    width: 235px;
-    position: absolute;
-    top: 35px;
-    left: 41vw;
+    width: 100%;
     padding: 7px 0px;
-    background: #FFCEDE;
-    border-radius: 50px;
-    text-align: center;
+    background: #de8da8;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
 }
 
 .title h1{
     color: #000;
-    font-size: 27px;
+    font-size: 25px;
     font-family: 'Montserrat';
-    position: relative;
-    top: -4px;
+}
+.logout{
+    box-sizing: border-box;
+    height: inherit;
+    width: 100px;
+    background-color: #e64279;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.logout:hover{
+    color: white;
+    background-color: #b82c5a;
+}
+.container-attendance{
+    min-height: 300px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.342);
+    margin-top: 50px;
+    
 }
 
 .mediumellipse{
@@ -77,4 +99,8 @@ footer{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     background-color: #fff;
+}
+h2{
+    margin-top: 50px;
+    text-align: center;
 }
