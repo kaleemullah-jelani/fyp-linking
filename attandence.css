@@ -68,11 +68,9 @@
     background-color:#b82c5a ;
 }
 
-
-
-
 h2{
-    margin-top: 50px;
+    margin-left: -5px;
+    margin-top: 20px;
     text-align: center;
 }
 .custom-select {
@@ -84,7 +82,7 @@ h2{
     width: 200px;
     position: relative;
     left: 55%;
-    top: -30px;
+    top: -50px;
     font-weight: bold;
   }
   .custom-select select {
