@@ -48,3 +48,35 @@
     color: white;
     background-color: #b82c5a;
 }
+
+
+.container-a{
+    width: 50%;
+    height: 20rem;
+    box-shadow: 0 5px 20px black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+a{
+    text-decoration: none;
+    background-color: #e64279;
+    padding: 20px 30px;
+    color: white;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: all .2s;
+
+}
+
+a:hover{
+    box-shadow: 0 10px 20px black;
+}
+
+a:active{
+    background-color: #b82c5a;
+}
